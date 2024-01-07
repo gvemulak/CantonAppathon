@@ -943,7 +943,9 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
+.about.col-md-6.icon-box {
+  width: 500px;
+}
 .about .content .read-more {
   background: var(--primary-color);
   color: var(--contrast-color);
@@ -984,7 +986,7 @@ section {
 }
 
 .about .icon-box i {
-  width: 80px;
+  width: 500px;
   height: 80px;
   border-radius: 50%;
   display: inline-flex;
